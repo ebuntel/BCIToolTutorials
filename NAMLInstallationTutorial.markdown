@@ -1,4 +1,4 @@
-# NAML Installation + Usage Tutorial
+# NAML Installation Tutorial
 
 ## Installation Process
 The installation process for NAML is described below. 
@@ -18,5 +18,16 @@ The versions of Python found on website above come packaged with the pip package
 The NAML repository comes packaged with a requirements.txt file. This file, conveniently, can be read by Python's package manager to automatically install NAML's required libraries. To do this, simply navigate to NAML's main folder (which contains the requirements.txt file), and run the following command:
 
 '''bash
-python -m pip install .
+python -m pip install -r requirements.txt
 '''
+
+This will install each dependency listed in the requirements.txt file. If they install correctly, then NAML is now ready for use. 
+
+### Step 3. Checking the Installation. 
+After installing NAML for the first time I would recommend giving it a test run to ensure that the dependencies we installed in step 2 are working correctly. NAML comes packaged with a few pre-made config files that are well suited to this purpose. Let's try running one. Run the following command in the /scripts/ folder of the NAML repository:
+
+'''bash
+python naml.py ./configFiles/example_config.json
+'''
+
+If the above command runs without presenting any errors then NAML has been correctly installed. 
