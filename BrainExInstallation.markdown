@@ -15,20 +15,20 @@ The versions of Python found on website above come packaged with the pip package
 ### Step 2. Install Python Dependencies
 BrainEx requires certain Python libraries to be installed before usage. As mentioned above we will use Python's package manager pip to install them. 
 
-'''
+'''bash
 python -m pip install numpy
 python -m pip install cython
 '''
 
 Now, navigate to the "brainex" folder inside of the BrainEx repository. This repo should have a requirements.txt file. If you run the below command in this folder, it will automatically install many of BrainEx's dependencies. 
 
-'''
+'''bash
 python -m pip install -r requirements.txt
 '''
 
 Finally, run these last commands to install the remaining dependencies. 
 
-'''
+'''bash
 python -m pip install git+git://github.com/ApocalyVec/fastdtw.git
 python -m pip install h5py
 python -m pip install boto3
@@ -52,7 +52,7 @@ Now that you've installed the BrainEx library it's best to test if your installa
 
 First, run a Python editor using the python command:
 
-'''
+'''bash
 python
 '''
 
