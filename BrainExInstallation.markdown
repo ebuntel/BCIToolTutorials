@@ -10,7 +10,7 @@ BrainEx is a Python library so the first step to using BrainEx is to install Pyt
 
 For installing Python you have two options. Either install [Anaconda](https://docs.anaconda.com/anaconda/install/), which also includes libraries that are used in other parts of these tutorials, or install Python from the Python website [here](https://www.python.org/downloads/). 
 
-The versions of Python found on website above come packaged with the pip package manager. We will use this package manager in the next step to install BrainEx's dependecies. 
+The versions of Python found at the websites above come packaged with the pip package manager. We will use this package manager in the next step to install BrainEx's dependecies. 
 
 ### Step 2. Install Python Dependencies
 BrainEx requires certain Python libraries to be installed before usage. As mentioned above we will use Python's package manager pip to install them. 
