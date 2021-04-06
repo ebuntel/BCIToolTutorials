@@ -1,0 +1,7 @@
+{
+    "global_max": 3.2938523,
+    "global_min": -2.3933679,
+    "backend": "multiprocess",
+    "has_uuid": true,
+    "seq_dim": 1
+}
