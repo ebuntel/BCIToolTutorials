@@ -15,6 +15,8 @@ The versions of Python found on website above come packaged with the pip package
 
 ### Step 2. Dependencies 
 
+For this step you should first download a copy of the NAML github repository [here](https://github.com/WPIHCILab/NAML).
+
 The NAML repository comes packaged with a requirements.txt file. This file, conveniently, can be read by Python's package manager to automatically install NAML's required libraries. To do this, simply navigate to NAML's main folder (which contains the requirements.txt file), and run the following command:
 
 ```bash
