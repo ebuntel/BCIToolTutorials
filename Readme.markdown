@@ -7,7 +7,7 @@ NAML (fNIRS Automated Machine Learning)
 
 ### Tutorial Order
 
-1. NAML Installation Tutorial
+1. NAMLInstallationTutorial
 2. NAMLParameterGuide
 
 ## BrainEx
