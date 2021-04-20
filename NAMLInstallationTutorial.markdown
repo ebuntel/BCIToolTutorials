@@ -29,7 +29,7 @@ This will install each dependency listed in the requirements.txt file. If they i
 After installing NAML for the first time I would recommend giving it a test run to ensure that the dependencies we installed in step 2 are working correctly. NAML comes packaged with a few pre-made config files that are well suited to this purpose. Let's try running one. Run the following command in the /scripts/ folder of the NAML repository:
 
 ```bash
-python naml.py ./configFiles/example_config.json
+python naml.py ./configFiles/all_methods_example_smallDataset.json
 ```
 
 If the above command runs without presenting any errors then NAML has been correctly installed. 
