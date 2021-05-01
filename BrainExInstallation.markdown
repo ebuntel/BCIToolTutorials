@@ -14,7 +14,7 @@ The versions of Python found at the websites above come packaged with the pip pa
 
 ### Step 2. Install Python Dependencies
 
-First, download the BrainEx github repository [here](https://github.com/ApocalyVec/BrainEX).
+First, download the BrainEx github repository [here](https://github.com/WPIHCILab/BrainEx).
 
 BrainEx requires certain Python libraries to be installed before usage. As mentioned above we will use Python's package manager pip to install them. 
 
