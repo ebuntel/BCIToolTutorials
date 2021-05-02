@@ -26,7 +26,7 @@ python -m pip install -r requirements.txt
 This will install each dependency listed in the requirements.txt file. If they install correctly, then NAML is now ready for use. 
 
 ### Step 3. Checking the Installation. 
-After installing NAML for the first time I would recommend giving it a test run to ensure that the dependencies we installed in step 2 are working correctly. NAML comes packaged with a few pre-made config files that are well suited to this purpose. Let's try running one. Run the following command in the /scripts/ folder of the NAML repository:
+After installing NAML for the first time I would recommend giving it a test run to ensure that the dependencies we installed in step 2 are working correctly. NAML comes packaged with a few pre-made config files that are well suited to this purpose. Let's try running one. Run the following command in the /naml_backend/naml_django/naml/ folder of the NAML repository:
 
 ```bash
 python naml.py ./configFiles/all_methods_example_smallDataset.json
